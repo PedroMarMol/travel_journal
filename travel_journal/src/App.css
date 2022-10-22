@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFFFFF;
+
+}
+
+.navbar > img {
+    width: 32px;
+}

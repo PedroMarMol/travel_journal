@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Navbar from "/src/components/Navbar"
 import Cards from "/src/components/Cards"
 import data from "./data"
-import Card from './components/Cards'
+import Card from "./components/Cards"
 
 export default function App() {
   const cards = data.map(item => {

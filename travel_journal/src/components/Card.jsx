@@ -4,8 +4,8 @@ import data from "../data";
 export default function Card(props) {
     let checkLastCard 
     if (props.index === (data.length - 1)) {
-        checkLastCard = "lastCard"
-    } else checkLastCard = "card"
+        checkLastCard = "card lastCard"
+    } else {checkLastCard = "card"} 
 
     return (
         <div className={checkLastCard}>

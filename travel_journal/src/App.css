@@ -32,7 +32,9 @@ body {
     gap: 20px;
     width: 70%;
     padding-bottom: 15px;
-    /* solo aplicable cuando no son la ultima card */
+}
+
+.card:not(:last-child) {
     border-bottom: 2px solid #F5F5F5;
     margin-bottom: 20px;
 }

@@ -4,9 +4,11 @@ import Card from "/src/components/Card"
 import data from "./data.jsx"
 
 export default function App() {
-  const cards = data.map(item => {
-    return (<Card
+  const cards = data.map(function(item, index) {
+    return (
+      <Card
         key={item.id}
+        index={index}
         item={item}
       />
     )

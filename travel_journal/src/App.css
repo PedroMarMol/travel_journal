@@ -32,11 +32,15 @@ body {
     gap: 20px;
     width: 70%;
     padding-bottom: 15px;
-}
-
-.card:not(:last-child) {
     border-bottom: 2px solid #F5F5F5;
     margin-bottom: 20px;
+}
+
+.lastCard {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    padding-bottom: 15px;
 }
 
 .card--img {

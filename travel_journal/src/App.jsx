@@ -8,6 +8,7 @@ export default function App() {
     return (
       <Card
         key={item.id}
+        isLast={index === data.length - 1}
         index={index}
         item={item}
       />

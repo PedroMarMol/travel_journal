@@ -1,12 +1,7 @@
 import React from "react";
-import data from "../data";
 
 export default function Card(props) {
-    let checkLastCard 
-    if (props.index === (data.length - 1)) {
-        checkLastCard = "card lastCard"
-    } else {checkLastCard = "card"} 
-
+    const checkLastCard = props.isLast ? "card lastCard" : "card"
     return (
         <div className={checkLastCard}>
             <img className="card--img" src={`/public/images/${props.item.image}`}/>

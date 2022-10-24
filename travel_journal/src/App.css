@@ -14,11 +14,78 @@ body {
     justify-content: center;
     gap: 10px;
     color: #FFFFFF;
-
+    
 }
 
 .navbar > img {
     width: 32px;
 }
 
-/* MAIN STYLING */
+/* CARD STYLING */
+.card {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    padding-bottom: 15px;
+    /* solo aplicable cuando no son la ultima card */
+    border-bottom: 2px solid #F5F5F5;
+    margin-bottom: 20px;
+}
+
+.card--img {
+    width: 125px;
+    height: 190px;
+    border-radius: 5px;
+}
+
+.card--text {
+    font-size: 11px;
+}
+
+.card--title {
+    margin: -7.5px 0 0 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+.card--mapIcon {
+    width: 25px;
+    height: 25px;
+}
+
+.card--country {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+}
+
+
+.card--mapsUrl {
+    color: #918E9B;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.card--dates {
+    display: flex;
+    margin: 0;
+    font-weight: 700;
+}
+
+.card--description {
+    margin-top: 0;
+    color: #2B283A;
+    line-height: 150%;
+}
+
+.cards--list {
+    margin: 50px 40px;
+}
